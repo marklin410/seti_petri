@@ -12,6 +12,7 @@ public class Petri {
 
     public static void main(String[] args) {
         System.out.println("Введите количество позиций");
+
         Scanner in = new Scanner(System.in);
         p = in.nextInt();
         m = new int[p];
@@ -19,6 +20,7 @@ public class Petri {
         for(int i = 0; i<p; i++){
             m[i] = in.nextInt();
         }
+
         System.out.println("Введите количество переходов");
         t = in.nextInt();
         in.nextLine();
